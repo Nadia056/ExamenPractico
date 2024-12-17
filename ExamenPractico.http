@@ -1,0 +1,9 @@
+@ExamenPractico_HostAddress = http://localhost:5221
+
+
+POST  {{ExamenPractico_HostAddress}}/api/Customer/GetAddresses?OrderBy=Address1&OrderAsc=true
+
+
+Accept: application/json
+
+###
